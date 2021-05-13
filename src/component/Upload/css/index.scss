@@ -1,0 +1,28 @@
+#upload{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 2.9rem;
+    
+    input{
+        border: none;
+        outline: none;
+        display: none;
+    }
+    .upload-show{
+        width: 32%;
+        height: 2.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        border: 2px slategrey dotted;
+        background-position: center ;
+        background-size: 100% 100%;
+        background-repeat: none; 
+    }
+   
+    
+
+}

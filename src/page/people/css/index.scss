@@ -1,0 +1,135 @@
+#people-container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+
+
+    .user-list {
+        width: 240px;
+        height: 100%;
+        background: #2E3238;
+        position: relative;
+        left: 0;
+        transition: all 0.3s;
+        overflow-y: auto;
+    }
+
+    @media screen and (max-width: 500px){
+        .user-list {
+            width: 160px;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            background: #2E3238;
+            transition: all 1s;
+        }
+    }
+   
+    .user-list-header{
+        display: flex;
+        margin-bottom: 5px;
+        .user-list-header-avatar{
+            position: relative;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .user-list-header-avatar-img{
+                width: 45px;
+                height: 45px;
+                border-radius: 5px;
+               
+            }
+        }
+
+        .user-list-header-txt{
+            flex: 1;
+            color: white;
+            font-size: 12px;
+            overflow: hidden;
+            text-align: left;
+           .user-list-header-nickname{
+               font-size: 16px;
+           }
+        }
+
+        
+    }
+  
+
+
+    .user-list-title{
+        color: #fff;
+        padding: 10px;
+        border-top: 1px solid #24272c;
+        border-bottom: 1px solid #24272c;
+        display: flex;
+        align-items: center;
+        .qunliao-renshu{
+            margin-left: 5px;
+            font-size: 16px;
+        }
+    }
+
+    .user-list-header-qun {
+        display: flex;
+        background-color: #414751;
+        margin: 0;
+        .user-list-header-avatar{
+            position: relative;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+
+    .user-list-item-header-nickname{
+        font-size: 14px;
+        color: #fff;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }
+
+
+     .list-header-txt{
+        flex: 1;
+        color: white;
+        font-size: 12px;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .user-list-header-people {
+        display: flex;
+        margin: 0;
+        .user-list-header-avatar{
+            position: relative;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+
+    #empty{
+        flex: 1;
+    }
+}
+
+

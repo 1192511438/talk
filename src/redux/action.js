@@ -1,0 +1,16 @@
+const NICKNAME_CHANGE='change'
+
+const IMGURL_CHANGE='img-change'
+
+const PEOPLE_CHANGE='CHANGE'
+
+const TITLE_CHANGE='TITLE_CHANGE'
+
+const ALL_MESSAGE='ALL_MESSAGE'
+export {
+    NICKNAME_CHANGE
+    ,IMGURL_CHANGE,
+    PEOPLE_CHANGE,
+    TITLE_CHANGE,
+    ALL_MESSAGE
+}
